@@ -2,7 +2,7 @@
     "name": "ljy/spyc",
     "description": "A simple YAML loader/dumper class for PHP",
     "type": "library",
-    "license": "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE",
+    "license": "MIT",
     "authors": [
         {
             "name": "mustangostang",
