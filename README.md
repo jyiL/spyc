@@ -1,3 +1,12 @@
+Spyc
+===============
+[![Latest Stable Version](https://poser.pugx.org/ljy/spyc/v/stable)](https://packagist.org/packages/ljy/spyc)
+[![Total Downloads](https://poser.pugx.org/ljy/spyc/downloads)](https://packagist.org/packages/ljy/spyc)
+[![Latest Unstable Version](https://poser.pugx.org/ljy/spyc/v/unstable)](https://packagist.org/packages/ljy/spyc)
+[![License](https://poser.pugx.org/ljy/spyc/license)](https://packagist.org/packages/ljy/spyc)
+
+
+
 **Spyc** is a YAML loader/dumper written in pure PHP. Given a YAML document, Spyc will return an array that
 you can use however you see fit. Given an array, Spyc will return a string which contains a YAML document 
 built from your data.
@@ -13,7 +22,7 @@ Using Spyc is trivial:
 
 ```php
 <?php
-require_once "spyc.php";
+use Spyc\Spyc;
 $Data = Spyc::YAMLLoad('spyc.yaml');
 ```
 
@@ -21,10 +30,10 @@ or (if you prefer functional syntax)
 
 ```php
 <?php
-require_once "spyc.php";
+use Spyc\Spyc;
 $Data = spyc_load_file('spyc.yaml');
 ```
 
-## Donations, anyone?
+## License
 
-If you find Spyc useful, I'm accepting Bitcoin donations (who doesn't these days?) at 193bEkLP7zMrNLZm9UdUet4puGD5mQiLai
+Spyc is open-sourced software licensed under the MIT license.
