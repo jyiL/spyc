@@ -36,4 +36,4 @@ $Data = spyc_load_file('spyc.yaml');
 
 ## License
 
-Spyc is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Spyc is open-sourced software licensed under the [WTFPL license](http://www.wtfpl.net/about/).
